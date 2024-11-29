@@ -1,0 +1,14 @@
+project:
+    type: book
+    output-dir: docs
+    pre-render: pre.R
+    post-render: post.R
+
+book:
+    title: "Testing"
+    chapters:
+        - index.qmd
+        - a.qmd
+        - b.qmd
+
+format: html
